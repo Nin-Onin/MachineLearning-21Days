@@ -1,46 +1,58 @@
 # Jupyter
+
 .ipynb_checkpoints/
-*.ipynb_checkpoints
+\*.ipynb_checkpoints
 
 # Python
-__pycache__/
-*.py[cod]
-*.egg-info/
+
+**pycache**/
+_.py[cod]
+_.egg-info/
 .eggs/
 
 # Virtual environments
+
 venv/
 .venv/
 env/
 ENV/
 
 # Data files (uncomment/add as your datasets grow)
-*.csv
-*.tsv
-*.parquet
-*.h5
-*.zip
+
+_.csv
+_.tsv
+_.parquet
+_.h5
+\*.zip
 data/raw/
 
 # Model artifacts
-*.pkl
-*.joblib
-*.pt
-*.pth
-*.h5
-*.tflite
+
+_.pkl
+_.joblib
+_.pt
+_.pth
+_.h5
+_.tflite
 checkpoints/
-models/*.bin
+models/\*.bin
 
 # OS / Editor junk
+
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
 
 # Environment variables / secrets
+
 .env
-*.env
+\*.env
 
 # Logs
-*.log
+
+\*.log
+
+# Pkl
+
+\*.pkl
